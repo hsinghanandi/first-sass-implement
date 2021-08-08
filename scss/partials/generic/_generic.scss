@@ -1,0 +1,64 @@
+@import "../variables/variables";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url($background_image);
+  background-size: cover;
+
+  h1 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 4rem;
+    color: $color_footer;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    background-color: $color_footer;
+    opacity: 0.8;
+    a {
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: $background_color_footer;
+    }
+  }
+}
+
+main {
+  margin: 0 1rem;
+  div {
+    display: grid;
+  }
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+li {
+  color: $color_footer;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer {
+  h3,
+  a {
+    color: $color_footer;
+  }
+  section {
+    background-color: $background_color_footer;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
